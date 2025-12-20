@@ -18,6 +18,7 @@ export const ProductList = () => {
         },
     ]
 
+
     const productElements =  products
     .filter((product) => {
         return product.price > 500

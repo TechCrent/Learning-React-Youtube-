@@ -5,6 +5,7 @@ import {Greeting} from "./Greeting"
 import { CardWrapper } from "./CardWrapper";
 import {UserDetails} from "./UserDetails"
 import { ProductList } from "./ProductList";
+import { NameList } from "./NameList";
 import './App.css'
 
 
@@ -12,6 +13,7 @@ import './App.css'
 function App() {
   return (
     <div>
+      <NameList/>
       <ProductList/>
       <UserDetails 
       name="Bruce Wayne" 
