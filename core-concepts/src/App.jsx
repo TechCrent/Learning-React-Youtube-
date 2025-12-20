@@ -1,14 +1,25 @@
+import { Card } from "./Card";
 import {Welcome} from "./Welcome";
 import Button from "./Button";
 import {Greeting} from "./Greeting"
 import { CardWrapper } from "./CardWrapper";
+import {UserDetails} from "./UserDetails"
 import './App.css'
-import { Card } from "./Card";
+
 
 
 function App() {
   return (
     <div>
+      <UserDetails 
+      name="Bruce Wayne" 
+      isOnline={true} 
+      isPremium={true} 
+      isNewUser={true}
+      role ={"admin"}/>
+
+      <UserDetails name="Clark Kent" isOnline={false} role={"vip"}/>
+
       <CardWrapper title="User Profile">
         <p>Bruce Wayne</p>
         <p>batman@jl.com</p>
