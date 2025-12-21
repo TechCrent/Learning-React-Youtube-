@@ -7,6 +7,7 @@ import {UserDetails} from "./UserDetails"
 import { ProductList } from "./ProductList";
 import { NameList } from "./NameList";
 import { Alert } from "./Alert";
+import { CustomButton } from "./CustomButton";
 import './App.css'
 
 
@@ -14,6 +15,7 @@ import './App.css'
 function App() {
   return (
     <div>
+      <CustomButton/>
       <Alert>Your changes have been saved!</Alert>
       <Alert type="error">Something Went wrong</Alert>
       <NameList/>
