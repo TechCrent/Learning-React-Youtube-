@@ -8,6 +8,9 @@ import { ProductList } from "./ProductList";
 import { NameList } from "./NameList";
 import { Alert } from "./Alert";
 import { CustomButton } from "./CustomButton";
+import { Contact } from "./Contact";
+import { NewsLetter } from "./NewsLetter";
+import { Menu } from "./Menu";
 import './App.css'
 
 
@@ -15,6 +18,9 @@ import './App.css'
 function App() {
   return (
     <div>
+      <Menu />
+      <Contact />
+      <NewsLetter />
       <CustomButton/>
       <Alert>Your changes have been saved!</Alert>
       <Alert type="error">Something Went wrong</Alert>
